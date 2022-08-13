@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
+/* --------------------------------- Colors*/
+
+.bg-color-name-title {
+    background-color: grey;
+}
+
+/* --------------------------------- Heading*/
+
 header {
     margin: 0;
+}
+
+.header {
+    margin-left: 20px;
 }
 
 .logo {
@@ -11,4 +23,21 @@ header {
     background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color:#fff;
 }
