@@ -10,6 +10,22 @@
     background-color: #20726b;
 }
 
+.bg-color-home {
+    background-color: red;
+}
+
+.bg-color-resume {
+    background-color: orange;
+}
+
+.bg-color-portfolio {
+    background-color: pink;
+}
+
+.bg-color-download {
+    background-color: blue;
+}
+
 /* --------------------------------- Heading*/
 
 header {
@@ -17,6 +33,10 @@ header {
 }
 
 a {
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: none;
 }
 
@@ -50,9 +70,15 @@ a {
     color:#fff;
 }
 
-.contact {
-    margin-top: 20px;
+#nav li {
+	list-style-type: none;
+	margin-right: 30px;
     text-align: center;
+    color:#fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
 
 .button-title {
@@ -64,12 +90,11 @@ a {
     color: #fff;
 }
 
-.contact:hover .button-title {
+.nav:hover .button-title {
     border-bottom: #fff 1px solid;
 }
 
-.contact i {
+.header-button-icon {
     font-size: 55px;
-    margin-top: 33px;
     color: #fff;
 }
