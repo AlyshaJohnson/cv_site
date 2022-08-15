@@ -12,13 +12,17 @@ The live link can be found here - https://alyshajohnson.github.io/cv_site/
 
 This project was part of an activity through codeinstitute to make an online CV using bootstrap, therefore the standard use of the 5 pillar model has not been used. However, some elements were used to enhance the project and make it tailored to the individual it is intended for (i.e. ME!).
 
-### 1.1 Skeleton
+**Skeleton**
 
 Some skeleton models were drawn up to understand the layout of the grid system in bootstrap.
 
-![Mobile](.assets/images/readme/wireframe-mobile.jpeg)
+Mobile:
 
-![Desktop](.assets/images/readme/wireframe-desktop.jpeg)
+![Mobile Wireframe](./assets/images/readme/wireframe-mobile.jpeg)
+
+Desktop:
+
+![Desktop Wireframe](./assets/images/readme/wireframe-desktop.jpeg)
 
 ## 2. Technologies used
 
@@ -137,7 +141,7 @@ GitHub pages deployment
 5. In the source section, select branch 'Master' and save
 6. The page is then given a site URL which will be seen above the source section, it will look like the following:
 
-![](./assets/images/readme/github_deployment.jpeg/)
+![](./assets/images/readme/github_deployment.jpeg)
 
 Please note it can take a while for this link to become fully active.
 
