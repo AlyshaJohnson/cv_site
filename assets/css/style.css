@@ -44,6 +44,10 @@ h5 {
     padding: 0;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -58,6 +62,10 @@ h5 {
     display: inline-block;
 }
 
+.row-table {
+    display: table;
+}
+
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -65,7 +73,7 @@ h5 {
 }
 
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 30px;
@@ -179,6 +187,9 @@ footer p, footer ul {
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf i:hover {
@@ -216,20 +227,44 @@ footer p, footer ul {
 
 /* --------------------------------- Info */
 
-.info-table {
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 30px;
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
 }
 
-.info-table-header {
-    padding-right: 30px;
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
 
 /* --------------------------------- About Me */
 
 .about-me-icon {
     font-size: 26px;
-    color: #e67e22;
+    color:red;
 }
 
 .about-me-heading {
