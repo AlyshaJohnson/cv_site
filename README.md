@@ -166,15 +166,12 @@ Logos and Fonts:
 
 Tutorials and support:
 - General guidance, information and limitations on elements, attributes, and methods from [w3schools](https://www.w3schools.com/default.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/)
-- <insert list of tutorials followed>
+- The website was created alongside the tutorial videos and github repository by [Code Institute Solutions](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4).
 
 ### 6.2 Media
 
-Any photos used throughout the app are stock imagery from the following services:
-- [unsplash](https://unsplash.com/)
-- [FreeImages](https://www.freeimages.com/)
-- [PikWizard](https://pikwizard.com/)
-
-<insert any other media used throughout the app/site here>
+All media used on this site was taken and owned by the developer.
 
 ### 6.3 Special Thanks
+
+Special thanks goes to 

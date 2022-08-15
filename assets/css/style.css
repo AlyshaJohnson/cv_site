@@ -26,12 +26,16 @@
     background-color: blue;
 }
 
-.bg-color-home-info {
-    background-color: #efefef;
+.bg-color-right-section {
+    background-color: #fafafa;
 }
 
-.bg-color-home-content{
-    background-color: #fafafa;
+.bg-color-home-info {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.bg-color-resume-work-history {
+    background-color: rgba(128, 0, 128, 0.2);
 }
 
 /* --------------------------------- General */
@@ -79,7 +83,7 @@ body {
     margin-bottom: 30px;
 }
 
-/* --------------------------------- Heading*/
+/* --------------------------------- Header */
 
 header {
     margin: 0;
@@ -269,6 +273,74 @@ footer p, footer ul {
 
 .about-me-heading {
     margin-bottom: 15px;
+}
+
+/* --------------------------------- Work History */
+
+.timeline-item {
+    padding: 2em 2em 1em 2em;
+    position: relative;
+    border-left: 1px solid purple;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 1em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: purple;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/* --------------------------------- Skills */
+
+.skills-icon {
+    font-size: 26px;
+    color: purple;
+}
+
+.progress {
+    position: relative;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 15px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 20px 10px;
 }
 
 /* --------------------------------- Hover.css */
