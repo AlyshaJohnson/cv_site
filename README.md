@@ -1,108 +1,180 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# My CV
 
-Welcome AlyshaJohnson,
+Purpose:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Aim:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsive Mockup](./assets/images/readme/responsive_mockup.jpeg/)
 
-## Gitpod Reminders
+The live link can be found here - https://alyshajohnson.github.io/cv_site/
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## 1. Design and Development
 
-`python3 -m http.server`
+This project was part of an activity through codeinstitute to make an online CV using bootstrap, therefore the standard use of the 5 pillar model has not been used. However, some elements were used to enhance the project and make it tailored to the individual it is intended for (i.e. ME!).
 
-A blue button should appear to click: _Make Public_,
+### 1.1 Skeleton
 
-Another blue button should appear to click: _Open Browser_.
+Some skeleton models were drawn up to understand the layout of the grid system in bootstrap.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Mobile](.assets/images/readme/wireframe-mobile.jpeg)
 
-A blue button should appear to click: _Make Public_,
+![Desktop](.assets/images/readme/wireframe-desktop.jpeg)
 
-Another blue button should appear to click: _Open Browser_.
+## 2. Technologies used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Several technologies were used to aid the project:
 
-To log into the Heroku toolbelt CLI:
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- Used to style all the web content across the project. 
+- [Google Fonts](https://fonts.google.com/)
+- Used to obtain the fonts in website
+- [Font Awesome](https://fontawesome.com/)
+- Used to obtain the icons used throughout website.
+- [GitHub](https://github.com/)
+- Used to store code for the project after being pushed.
+- [Git](https://git-scm.com/)
+- Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/)
+- Used as the development environment.
+- [Colormind](http://colormind.io/)
+- Used to determine colour palette throughout website.
+- [Tiny.png](https://tinypng.com/)
+- Used to compress my images so that the page would load faster.
+- [Techsini](http://techsini.com/multi-mockup/index.php)
+- Used to generate multi-device mockup.
+- [Freeformatter CSS Beautify](https://www.freeformatter.com/css-beautifier.html)
+- Used to accurately format CSS code.
+- [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
+- Used to accurately format HTML code.
+- [Python](https://www.python.org/)
+- Python is the core programming language used to write all of the code in this game to make it fully functional.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## 3. Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### 3.1 Existing Features
 
-------
+The features deployed for this quiz are as follows:
 
-## Release History
+<insert feature descriptions and images>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### 3.2 Future Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+In addition to the features deployed, some features that could be deployed in a future release are:
+- <list future features>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## 4. Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### 4.1 Initial Developer Testing
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+As the project was developed and coded, developer testing was conducted to reduce the impact of bugs and errors in the code. This testing consisted of general debugging of written code based off gitpod IDE recommendations; running through input validator testing scenarios to check for input errors; and testing on different browsers.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+**General Debugging**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**Input Validator Testing**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+**Browser / Device testing**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The development of this app was conducted on Google Chrome, therefore extensive testing was conducted on this browser. This was used as a benchmark against Firefox and Safari.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The elements of testing conducted on each browser are:
+<insert list of testing performed and why - see example below>
+- User Experience - what does the quiz look like; is the flow through the quiz the same; are all elements where they are expected?
+- Functionality - do the buttons work as expected; does the question counter count?
+- Performance - how responsive is the site?
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The user experience is consistent on Chrome, Firefox and Safari. The instruction videos in Safari do not load - this bug has been captured.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Responsive design is important, CSS code had to be amended and adjusted to make sure the app could work on a number of devices. There were a number of user experience bugs that were produced when testing. These have now been fixed in the code.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### 4.2 Validator Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any code, scripts or elements that are causing any errors. The results for the site are as follows:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**HTML**
+- <insert report number> errors were returned when passing through the official [W3C validator](<insert link to report>)
 
-------
+**CSS**
+- <insert report number> errors were found when passing through the official [(Jigsaw) validator](<insert link to report>)
 
-## FAQ about the uptime script
+**JS**
+- [JSHint](https://jshint.com/) was used to check for errors in the JS code.
+- For script.js, there were <insert report number> errors and <insert report number> warnings.
+- For instructions.js, there were <insert report number> errors and <insert report number> warnings.
+<insert any methods used to reduce number of errors and warnings>
 
-**Why have you added this script?**
+**Performance**
+- Results can be seen through the official [Lighthouse](<insert link to report>) report.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+As part of the performance test through Lighthouse, some changes were made:
+- Accessibility (aria-label) tags were implemented on all buttons to improve the score from 82 to 100.
+- The cache policy was amended to increase the length of number of seconds the browser should cache the resource.
+- The image file sizes needed to be compressed so reduce the impact on performance. This was successfully done using [tinyPNG](https://tinypng.com/).
 
-**How will this affect me?**
+### 4.3 User Testing
+This app has been tested by a small group of 10 users in which some feedback was captured in the design and some errors in functionality and spelling were corrected.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+UI improvements made:
+- <list any improvements to UI that were made here>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Errors / bug fixes:
+- <list errors/bugs that were found, what the problem was and how they were fixed>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### 4.4 Unfixed Bugs
 
-**So….?**
+- <list unfixed bugs here>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## 5. Deployment
 
-**Can I opt out?**
+This website was deployed using GitPages and following the below steps:
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+GitHub pages deployment
+1. Log in to GitHub
+2. In the Repository section, select the project repository that you want to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Pages' on the left-hand menu - this is around halfway down
+5. In the source section, select branch 'Master' and save
+6. The page is then given a site URL which will be seen above the source section, it will look like the following:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![](./assets/images/readme/github_deployment.jpeg/)
 
-**Anything more?**
+Please note it can take a while for this link to become fully active.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Forking the GitHub Repository
+To make changes to this repository without affecting it, a copy can be made by 'Forking' it. This ensures the original repository remains unchanged.
+1. Find the relevant GitHub repository
+2. In the top right corner of the page, click the Fork button (under account)
+3. The repository has now been 'Forked' and you have a copy to work on
 
----
+Cloning the GitHub Repository
+Cloning a repository will allow a local version of the repository will be downloaded so can be worked on. Cloning is also a great way to backup work.
+1. Find the relevant GitHub repository
+2. Press the arrow on the Code button
+3. Copy the link that is shown in the drop-down
+4. Now open Gitpod & select the directory location
+5. In the terminal type 'git clone' & then paste the link copied from GitHub
+6. Press enter and a local clone will be created.
 
-Happy coding!
+## 6. Credits
+
+### 6.1 Content
+
+Logos and Fonts:
+- The fonts were taken from [GoogleFonts](https://fonts.google.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+Tutorials and support:
+- General guidance, information and limitations on elements, attributes, and methods from [w3schools](https://www.w3schools.com/default.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- <insert list of tutorials followed>
+
+### 6.2 Media
+
+Any photos used throughout the app are stock imagery from the following services:
+- [unsplash](https://unsplash.com/)
+- [FreeImages](https://www.freeimages.com/)
+- [PikWizard](https://pikwizard.com/)
+
+<insert any other media used throughout the app/site here>
+
+### 6.3 Special Thanks
