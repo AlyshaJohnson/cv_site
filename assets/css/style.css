@@ -34,10 +34,12 @@ header {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 .heading {
@@ -70,31 +72,51 @@ a:hover {
     color:#fff;
 }
 
-#nav li {
-	list-style-type: none;
-	margin-right: 30px;
-    text-align: center;
-    color:#fff;
+.nav:hover .button-title {
+    border-bottom: #fff 1px solid;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-.button-title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 26px;
-    margin: 20px;
-    margin-bottom: 80px;
-    color: #fff;
+.menucontainer {
+    font-size: 0;
 }
 
-.nav:hover .button-title {
-    border-bottom: #fff 1px solid;
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
 
 .header-button-icon {
-    font-size: 55px;
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.header-button-icon a {
+    width: 100%;
+    text-decoration: none;
     color: #fff;
+    height: 120px;
+}
+
+.header-button-icon a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.header-button-icon span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
