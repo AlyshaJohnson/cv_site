@@ -28,7 +28,11 @@
 
 /* --------------------------------- General */
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     padding: 0;
 }
 
@@ -39,23 +43,17 @@ h1, h2, h3, h4, h5 {
 .general-sub {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    color:#fafafa;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /* --------------------------------- Heading*/
 
 header {
     margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    text-decoration: none;
-    color: inherit;
 }
 
 .heading {
@@ -85,7 +83,7 @@ a:hover {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 80px;
-    color:#fafafa;
+    color: #fafafa;
 }
 
 .nav:hover .button-title {
@@ -148,6 +146,51 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+footer p, footer ul {
+    margin-bottom: 5px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color:orangered;
+}
+
+.social-links {
+    padding-bottom: 5px;
+}
+
+.social-links li a i {
+    width: 38px;
+    height: 38px;
+    padding: 15px 0;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    font-size: 25px;
+    transition: all 0.35s ease-in-out;
+    text-align: center;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color:orangered;
+}
+
+#footer-details {
+    padding: 20px;
 }
 
 /* --------------------------------- Hover.css */
