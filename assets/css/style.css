@@ -26,6 +26,14 @@
     background-color: blue;
 }
 
+.bg-color-home-info {
+    background-color: #efefef;
+}
+
+.bg-color-home-content{
+    background-color: #fafafa;
+}
+
 /* --------------------------------- General */
 
 h1,
@@ -48,6 +56,19 @@ h5 {
 
 .inline-block {
     display: inline-block;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 /* --------------------------------- Heading*/
@@ -191,6 +212,28 @@ footer p, footer ul {
 
 #footer-details {
     padding: 20px;
+}
+
+/* --------------------------------- Info */
+
+.info-table {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+}
+
+.info-table-header {
+    padding-right: 30px;
+}
+
+/* --------------------------------- About Me */
+
+.about-me-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.about-me-heading {
+    margin-bottom: 15px;
 }
 
 /* --------------------------------- Hover.css */
