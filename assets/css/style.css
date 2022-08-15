@@ -15,15 +15,31 @@
 }
 
 .bg-color-resume {
-    background-color: orange;
+    background-color: purple;
 }
 
 .bg-color-portfolio {
-    background-color: pink;
+    background-color: orange;
 }
 
 .bg-color-download {
     background-color: blue;
+}
+
+/* --------------------------------- General */
+
+h1, h2, h3, h4, h5 {
+    padding: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color:#fafafa;
 }
 
 /* --------------------------------- Heading*/
@@ -60,7 +76,7 @@ a:hover {
     font-weight: 300;
     font-size: 46px;
     margin-top: 50px;
-    color: #fff;
+    color: #fafafa;
 }
 
 .title {
@@ -69,11 +85,11 @@ a:hover {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 80px;
-    color:#fff;
+    color:#fafafa;
 }
 
 .nav:hover .button-title {
-    border-bottom: #fff 1px solid;
+    border-bottom: #fafafa 1px solid;
 }
 
 .list-inline-item:not(:last-child) {
@@ -102,7 +118,7 @@ a:hover {
 .header-button-icon a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: #fafafa;
     height: 120px;
 }
 
@@ -123,6 +139,15 @@ a:hover {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/* --------------------------------- Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
 
 /* --------------------------------- Hover.css */
