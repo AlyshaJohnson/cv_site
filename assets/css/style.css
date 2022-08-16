@@ -7,11 +7,11 @@
 }
 
 .bg-color-contact {
-    background-color: #20726b;
+    background-color: #2b3dc9;
 }
 
 .bg-color-home {
-    background-color: red;
+    background-color: orange;
 }
 
 .bg-color-resume {
@@ -19,11 +19,7 @@
 }
 
 .bg-color-portfolio {
-    background-color: orange;
-}
-
-.bg-color-download {
-    background-color: blue;
+    background-color: #20726b;
 }
 
 .bg-color-right-section {
@@ -31,7 +27,7 @@
 }
 
 .bg-color-home-info {
-    background-color: rgba(255, 0, 0, 0.2);
+    background-color: rgba(255, 165, 0, 0.2);
 }
 
 .bg-color-resume-work-history {
@@ -268,7 +264,7 @@ footer p, footer ul {
 
 .about-me-icon {
     font-size: 26px;
-    color:red;
+    color: orange;
 }
 
 .about-me-heading {
@@ -294,7 +290,7 @@ footer p, footer ul {
     left: 2.5em;
     top: 1em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -343,6 +339,76 @@ footer p, footer ul {
     margin: 20px 10px;
 }
 
+/* --------------------------------- Portfolio */
+
+.carousel {
+    margin: 0 auto;
+}
+
+.carousel-item a {
+    margin: 50px 60px;
+    max-height: 250px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    width: 42px;
+    height: 42px;
+    padding: 18px 0;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #20726b;
+    font-size: 25px;
+    transition: all 0.35s ease-in-out;
+    text-align: center;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.carousel-caption {
+    background-color: rgba(32, 114, 107, 0.5);
+}
+
+.carousel-caption h3 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+}
+
+.carousel-caption a p {
+    background-color: #fafafa;
+    color: #20726b;
+    text-decoration: none;
+}
+
+.carousel-caption h5,
+.carousel-caption p,
+.carousel-caption a {
+    display: none;
+    font-weight: 200;
+}
+
+.carousel-caption:hover {
+    height: 100%;
+    background-color: rgba(32, 114, 107, 0.98);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.carousel-caption:hover h5,
+.carousel-caption:hover p,
+.carousel-caption:hover a {
+    display: block;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 /* --------------------------------- Contact Form */
 
 .contact-heading {
@@ -362,7 +428,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #20726b;
+    background-color: #2b3dc9;
 }
 
 /* --------------------------------- Hover.css */
