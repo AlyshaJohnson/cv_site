@@ -1,8 +1,8 @@
 # My CV
 
-Purpose:
+Purpose: An online cv of the site-owner.
 
-Aim:
+Aim: The aim is to communicate to the user the skills, competancies, work/education history of the site owner.
 
 ![Responsive Mockup](./assets/images/readme/responsive_mockup.jpeg/)
 
@@ -52,6 +52,8 @@ Several technologies were used to aid the project:
 - Used to accurately format CSS code.
 - [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
 - Used to accurately format HTML code.
+- [EmailJS](https://www.emailjs.com/)
+- EmailJS is the API used to send an email to the site owner when the form is submitted.
 - [Python](https://www.python.org/)
 - Python is the core programming language used to write all of the code in this game to make it fully functional.
 

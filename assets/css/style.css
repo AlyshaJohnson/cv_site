@@ -3,35 +3,47 @@
 /* --------------------------------- Colors*/
 
 .bg-color-name-title {
-    background-color: grey;
+	background-color: grey;
 }
 
 .bg-color-contact {
-    background-color: #2b3dc9;
+	background-color: #2b3dc9;
 }
 
 .bg-color-home {
-    background-color: orange;
+	background-color: orange;
 }
 
 .bg-color-resume {
-    background-color: purple;
+	background-color: purple;
 }
 
 .bg-color-portfolio {
-    background-color: #20726b;
+	background-color: #20726b;
+}
+
+.bg-color-interests {
+	background-color: rgb(255, 69, 0);
+}
+
+.bg-color-download {
+	background-color: #474646;
 }
 
 .bg-color-right-section {
-    background-color: #fafafa;
+	background-color: #fafafa;
 }
 
 .bg-color-home-info {
-    background-color: rgba(255, 165, 0, 0.2);
+	background-color: rgba(255, 165, 0, 0.2);
 }
 
 .bg-color-resume-work-history {
-    background-color: rgba(128, 0, 128, 0.2);
+	background-color: rgba(128, 0, 128, 0.2);
+}
+
+.bg-color-interests-hobbies {
+	background-color: rgba(255, 69, 0, 0.2);
 }
 
 /* --------------------------------- General */
@@ -41,410 +53,418 @@ h2,
 h3,
 h4,
 h5 {
-    padding: 0;
+	padding: 0;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 .uppercase {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .general-sub {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	color: #fafafa;
 }
 
 .inline-block {
-    display: inline-block;
+	display: inline-block;
 }
 
 .row-table {
-    display: table;
+	display: table;
 }
 
 .section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+	display: table-cell;
+	padding: 0 30px 30px;
+	float: none;
 }
 
 .section-heading {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 30px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	margin-top: 25px;
+	margin-bottom: 30px;
 }
 
 /* --------------------------------- Header */
 
 header {
-    margin: 0;
+	margin: 0;
 }
 
 .heading {
-    margin-left: 20px;
+	margin-left: 20px;
 }
 
 .logo {
-    background: url("../images/me.jpg");
-    background-position: centre;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
+	background: url("../images/me.jpg");
+	background-position: centre;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 360px;
+	transition: all .5s ease-in-out;
 }
 
 .name {
-    font-family: "Figtree", sans-serif;
-    font-weight: 300;
-    font-size: 46px;
-    margin-top: 50px;
-    color: #fafafa;
+	font-family: "Figtree", sans-serif;
+	font-weight: 300;
+	font-size: 46px;
+	margin-top: 50px;
+	color: #fafafa;
 }
 
 .title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 80px;
-    color: #fafafa;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 200;
+	font-size: 28px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	color: #fafafa;
 }
 
 .nav:hover .button-title {
-    border-bottom: #fafafa 1px solid;
+	border-bottom: #fafafa 1px solid;
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0;
+	margin: 0;
 }
 
 .menucontainer {
-    font-size: 0;
+	font-size: 0;
 }
 
 #nav {
-    margin: 0;
+	margin: 0;
 }
 
 #nav li {
-    font-size: 14px;
-    padding: 0;
+	font-size: 14px;
+	padding: 0;
 }
 
 .header-button-icon {
-    height: 121px;
-    text-align: center;
-    padding: 0;
+	height: 121px;
+	text-align: center;
+	padding: 0;
 }
 
 .header-button-icon a {
-    width: 100%;
-    text-decoration: none;
-    color: #fafafa;
-    height: 120px;
+	width: 100%;
+	text-decoration: none;
+	color: #fafafa;
+	height: 120px;
 }
 
 .header-button-icon a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
+	padding-top: 22px;
+	display: block;
+	color: #fafafa;
+	font-size: 26px;
 }
 
 .header-button-icon span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+	display: block;
+	width: 100%;
+	padding-top: 5px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 2px;
 }
 
 /* --------------------------------- Footer */
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
+	background-color: #525252;
+	color: #fafafa;
+	min-height: 120px;
+	margin: 0;
 }
 
-footer p, footer ul {
-    margin-bottom: 5px;
+footer p,
+footer ul {
+	margin-bottom: 5px;
 }
 
 .cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	font-size: 18px;
+	color: #fafafa;
+	text-align: center;
+	padding-left: 5px;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf i:hover {
-    color:orangered;
+	color: orangered;
 }
 
 .social-links {
-    padding-bottom: 5px;
+	padding-bottom: 5px;
 }
 
 .social-links li a i {
-    width: 38px;
-    height: 38px;
-    padding: 15px 0;
-    border-radius: 50%;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    font-size: 25px;
-    transition: all 0.35s ease-in-out;
-    text-align: center;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	width: 38px;
+	height: 38px;
+	padding: 15px 0;
+	border-radius: 50%;
+	line-height: 7px;
+	text-align: center;
+	color: #fafafa;
+	background: #8f8f8f;
+	font-size: 25px;
+	transition: all 0.35s ease-in-out;
+	text-align: center;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background-color:orangered;
+	background-color: orangered;
 }
 
 #footer-details {
-    padding: 20px;
+	padding: 20px;
 }
 
 /* --------------------------------- Info */
 
 .personal-info-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
+	margin-bottom: 20px;
+	display: block;
+	clear: both;
 }
 
 .personal-info-item .key,
 .personal-info-item .value {
-    padding-right: 8px;
-    display: inline-block;
+	padding-right: 8px;
+	display: inline-block;
 }
 
 .personal-info-item .key p,
 .personal-info-item .value p {
-    margin: 0;
+	margin: 0;
 }
 
 .personal-info-item .key {
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
+	width: 30%;
+	margin-right: 21px;
+	padding-top: 2px;
+	vertical-align: top;
 }
 
 .personal-info-item .key p {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 .personal-info-item .value {
-    position: relative;
-    width: 60%;
+	position: relative;
+	width: 60%;
 }
 
 /* --------------------------------- About Me */
 
 .about-me-icon {
-    font-size: 26px;
-    color: orange;
+	font-size: 26px;
+	color: orange;
 }
 
 .about-me-heading {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* --------------------------------- Work History */
 
 .timeline-item {
-    padding: 2em 2em 1em 2em;
-    position: relative;
-    border-left: 1px solid purple;
+	padding: 2em 2em 1em 2em;
+	position: relative;
+	border-left: 1px solid purple;
 }
 
 .timeline-item p {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 1em;
-    display: block;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+	content: attr(data-dates);
+	position: absolute;
+	left: 2.5em;
+	top: 1em;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
 }
 
 .timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: purple;
+	width: 12px;
+	height: 12px;
+	display: block;
+	top: 2.4em;
+	position: absolute;
+	left: -6px;
+	border-radius: 12px;
+	content: '';
+	background: purple;
 }
 
 .history-items {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 /* --------------------------------- Skills */
 
 .skills-icon {
-    font-size: 26px;
-    color: purple;
+	font-size: 26px;
+	color: purple;
 }
 
 .progress {
-    position: relative;
-    height: 30px;
-    margin-bottom: 4px;
+	position: relative;
+	height: 30px;
+	margin-bottom: 4px;
 }
 
 .progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 15px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
+	position: absolute;
+	left: 0px;
+	font-weight: 400;
+	padding: 15px 10px;
+	color: #fafafa;
+	background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
-    margin: 20px 10px;
+	margin: 20px 10px;
 }
 
 /* --------------------------------- Portfolio */
 
 .carousel {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .carousel-item a {
-    margin: 50px 60px;
-    max-height: 250px;
+	margin: 50px 60px;
+	max-height: 250px;
 }
 
 .carousel-control-prev i,
 .carousel-control-next i {
-    width: 42px;
-    height: 42px;
-    padding: 18px 0;
-    border-radius: 50%;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #20726b;
-    font-size: 25px;
-    transition: all 0.35s ease-in-out;
-    text-align: center;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	width: 42px;
+	height: 42px;
+	padding: 18px 0;
+	border-radius: 50%;
+	line-height: 7px;
+	text-align: center;
+	color: #fafafa;
+	background: #20726b;
+	font-size: 25px;
+	transition: all 0.35s ease-in-out;
+	text-align: center;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .carousel-caption {
-    background-color: rgba(32, 114, 107, 0.5);
+	background-color: rgba(32, 114, 107, 0.5);
 }
 
 .carousel-caption h3 {
-    font-family: "Figtree", sans-serif;
-    font-weight: 400;
+	font-family: "Figtree", sans-serif;
+	font-weight: 400;
 }
 
 .carousel-caption a p {
-    background-color: #fafafa;
-    color: #20726b;
-    text-decoration: none;
+	background-color: #fafafa;
+	color: #20726b;
+	text-decoration: none;
 }
 
 .carousel-caption h5,
 .carousel-caption p,
 .carousel-caption a {
-    display: none;
-    font-weight: 200;
+	display: none;
+	font-weight: 200;
 }
 
 .carousel-caption:hover {
-    height: 100%;
-    background-color: rgba(32, 114, 107, 0.98);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	height: 100%;
+	background-color: rgba(32, 114, 107, 0.98);
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .carousel-caption:hover h5,
 .carousel-caption:hover p,
 .carousel-caption:hover a {
-    display: block;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	display: block;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+
+/* --------------------------------- Info */
+
+.interests-icon {
+	font-size: 26px;
+	color: orangered;
 }
 
 /* --------------------------------- Contact Form */
 
 .contact-heading {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
 
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+	padding-top: 10px;
+	margin: 0 auto;
+	max-width: 70%;
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #2b3dc9;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #fafafa;
+	background-color: #2b3dc9;
 }
 
 /* --------------------------------- Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 121px;
+	background: rgba(0, 0, 0, 0.2);
+	height: 121px;
 }
 
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
+	.center-form {
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}
 }
