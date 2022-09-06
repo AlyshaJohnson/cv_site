@@ -385,6 +385,11 @@ footer ul {
 	background-color: rgba(32, 114, 107, 0.5);
 }
 
+.div-scroll {
+	overflow-x: scroll;
+	height: 65%;
+}
+
 .carousel-caption h3 {
 	font-family: "Figtree", sans-serif;
 	font-weight: 400;
@@ -398,8 +403,7 @@ footer ul {
 
 .carousel-caption > div {
 	text-align: left;
-	margin-left: 20px;
-	margin-top: 20px;
+	margin: 20px;
 }
 
 .carousel-caption div,
@@ -428,7 +432,7 @@ footer ul {
 	-o-transition: all 0.35s ease-in-out;
 }
 
-/* --------------------------------- Interest */
+/* --------------------------------- Interests */
 
 .currently-item {
 	margin-bottom: 20px;
