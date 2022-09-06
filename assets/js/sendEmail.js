@@ -13,8 +13,6 @@ function submitForm(contactForm) {
 };
 
 function validateForm(fullName, email, query, description) {
-    console.log(fullName, email, query, description);
-
     //check if form is valid
     if ((fullName, email, query, description).length > 0) {
         document.getElementById("contact-modal-title").innerHTML = "Form Submission";
@@ -47,6 +45,8 @@ function sendMail(fullName, email, query, description) {
                     document.getElementById("contact-modal-body").innerHTML = "Thank you for your enquiry, your details have now been submitted. <br> I aim to respond within 2-3 days.";
                     document.getElementById("contact-modal-button").innerHTML = 'OK';
                     okButtonBlue();
+                    //code to reset form only if successful
+                    document.getElementById("contact-form").reset();
                 },
                 function (error) {
                     console.log("FAILED", error);
@@ -56,8 +56,6 @@ function sendMail(fullName, email, query, description) {
                     okButtonBlue();
                 }
             )
-        //code to reset form
-        document.getElementById("contact-form").reset();
     } else {
         return false
     }
