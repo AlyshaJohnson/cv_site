@@ -127,6 +127,10 @@ header {
 	color: #fafafa;
 }
 
+.title > i {
+	font-size: 15px;
+}
+
 .nav:hover .button-title {
 	border-bottom: #fafafa 1px solid;
 }
@@ -473,13 +477,19 @@ footer ul {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
 	margin-top: 25px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .center-form {
 	padding-top: 10px;
 	margin: 0 auto;
 	max-width: 70%;
+}
+
+.center-form input,
+.center-form select,
+.center-form textarea {
+	margin: 5px;
 }
 
 button[type="submit"] {
