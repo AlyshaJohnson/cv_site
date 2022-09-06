@@ -337,6 +337,11 @@ footer ul {
 	color: purple;
 }
 
+.language-p {
+	margin-left: 20px;
+    width: 100%;
+}
+
 .progress {
 	position: relative;
 	height: 30px;
