@@ -396,8 +396,14 @@ footer ul {
 	text-decoration: none;
 }
 
+.carousel-caption > div {
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.carousel-caption div,
 .carousel-caption h5,
-.carousel-caption p,
 .carousel-caption a {
 	display: none;
 	font-weight: 200;
@@ -412,9 +418,9 @@ footer ul {
 	-o-transition: all 0.35s ease-in-out;
 }
 
+.carousel-caption:hover div,
 .carousel-caption:hover h5,
-.carousel-caption:hover p,
-.carousel-caption:hover a {
+.carousel-caption:hover a  {
 	display: block;
 	transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
@@ -449,6 +455,36 @@ button[type="submit"] {
 	margin-bottom: 20px;
 	color: #fafafa;
 	background-color: #2b3dc9;
+}
+
+/* --------------------------------- Contact Form */
+
+.show {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-footer {
+	display: block;
+	text-align: center;
+}
+
+.okButton {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #fafafa;
+	background-color: #2b3dc9;
+}
+
+@keyframes rotate {
+	0%   {transform: rotate(0deg)}
+	100% {transform: rotate(360deg)}
+}
+
+button i {
+	animation-name: rotate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
 }
 
 /* --------------------------------- Hover.css */
