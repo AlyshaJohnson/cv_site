@@ -129,6 +129,7 @@ header {
 
 .title > i {
 	font-size: 15px;
+	display: block;
 }
 
 .nav:hover .button-title {
@@ -542,6 +543,12 @@ button i {
 }
 
 /* ----------------------------------------Media Queries */
+
+@media(min-width: 768px) {
+	.title > i {
+		display: inline;
+	}
+}
 
 @media(min-width: 992px) {
 	.center-form {
