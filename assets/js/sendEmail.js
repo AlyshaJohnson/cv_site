@@ -52,8 +52,7 @@ function sendMail(fullName, email, query, description) {
                     document.getElementById("contact-modal-body").innerHTML = `Thank you for your enquiry. Unfortunately, there has been an error. <br> ${error.response}`;
                     document.getElementById("contact-modal-button").innerHTML = 'OK';
                     okButtonBlue();
-                }
-            );
+                })
     } else {
         return false;
     }
