@@ -1,5 +1,5 @@
 const serviceId = "service_fllei9h";
-const templateId = "template_apga9gd"
+const templateId = "template_apga9gd";
 
 function submitForm(contactForm) {
     let fullName = contactForm.name.value;
@@ -10,7 +10,7 @@ function submitForm(contactForm) {
 
     validateForm(fullName, email, query, description);
     sendMail(fullName, email, query, description);
-};
+}
 
 function validateForm(fullName, email, query, description) {
     //check if form is valid
@@ -19,9 +19,7 @@ function validateForm(fullName, email, query, description) {
         document.getElementById("contact-modal-body").innerHTML = "Thank you for submitting your details into the form. Please wait for confirmation they have been sent to the server.";
         document.getElementById("contact-modal-button").innerHTML = 'Please wait  <i class="fa-solid fa-arrows-rotate"></i>';
         document.getElementById("form-modal").classList.add("show");
-    }
-    //code if no
-    else {
+    } else {
         document.getElementById("contact-modal-title").innerHTML = "Form Submission Failed";
         document.getElementById("contact-modal-body").innerHTML = "You have not entered all required fields, please return to the form and try again.";
         document.getElementById("contact-modal-button").innerHTML = 'OK';
@@ -55,9 +53,9 @@ function sendMail(fullName, email, query, description) {
                     document.getElementById("contact-modal-button").innerHTML = 'OK';
                     okButtonBlue();
                 }
-            )
+            );
     } else {
-        return false
+        return false;
     }
 }
 

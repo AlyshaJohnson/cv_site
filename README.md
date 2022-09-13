@@ -4,7 +4,7 @@ Purpose: An online cv of the site-owner.
 
 Aim: The aim is to communicate to the user the skills, competancies, work/education history of the site owner.
 
-![Responsive Mockup](./assets/images/readme/responsive_mockup.jpeg/)
+![Responsive Mockup](assets/images/readme/responsive_mockup.jpeg)
 
 The live link can be found here - https://alyshajohnson.github.io/cv_site/
 
@@ -63,12 +63,19 @@ Several technologies were used to aid the project:
 
 The features deployed for this quiz are as follows:
 
-<insert feature descriptions and images>
+- Consistent header detailing across all pages
+- Nav bar with links to all pages
+- Consistent footer detailing social media links and link to download cv.
+- Homepage providing contact information, ask and introduction.
+- Resume page with timeline for education and work history
+- Portfolio page with carousel of public projects
+- Interests page to show interests and hobbies
+- Contact page with form connected to an API which sends form information to site owner.
 
 ### 3.2 Future Features
 
 In addition to the features deployed, some features that could be deployed in a future release are:
-- <list future features>
+- Use Flask frameworks to reduce duplicate HTML code.
 
 ## 4. Testing
 
@@ -76,60 +83,42 @@ In addition to the features deployed, some features that could be deployed in a 
 
 As the project was developed and coded, developer testing was conducted to reduce the impact of bugs and errors in the code. This testing consisted of general debugging of written code based off gitpod IDE recommendations; running through input validator testing scenarios to check for input errors; and testing on different browsers.
 
-**General Debugging**
-
-**Input Validator Testing**
-
-**Browser / Device testing**
-
 The development of this app was conducted on Google Chrome, therefore extensive testing was conducted on this browser. This was used as a benchmark against Firefox and Safari.
 
 The elements of testing conducted on each browser are:
-<insert list of testing performed and why - see example below>
-- User Experience - what does the quiz look like; is the flow through the quiz the same; are all elements where they are expected?
-- Functionality - do the buttons work as expected; does the question counter count?
+- User Experience - what does the site look like; is the flow through the site the same; are all elements where they are expected?
+- Functionality - do the buttons work as expected; does the cv link work; does an email send when the form is submitted?
 - Performance - how responsive is the site?
 
-The user experience is consistent on Chrome, Firefox and Safari. The instruction videos in Safari do not load - this bug has been captured.
-
-Responsive design is important, CSS code had to be amended and adjusted to make sure the app could work on a number of devices. There were a number of user experience bugs that were produced when testing. These have now been fixed in the code.
+The user experience is consistent on Chrome, Firefox and Safari.
 
 ### 4.2 Validator Testing
 
 Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any code, scripts or elements that are causing any errors. The results for the site are as follows:
 
 **HTML**
-- <insert report number> errors were returned when passing through the official [W3C validator](<insert link to report>)
+- 0 errors were returned when passing any html file through the official [W3C validator](<https://validator.w3.org/nu/#textarea>)
 
 **CSS**
-- <insert report number> errors were found when passing through the official [(Jigsaw) validator](<insert link to report>)
+- 0 errors were found when passing style.css through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
 **JS**
 - [JSHint](https://jshint.com/) was used to check for errors in the JS code.
-- For script.js, there were <insert report number> errors and <insert report number> warnings.
-- For instructions.js, there were <insert report number> errors and <insert report number> warnings.
-<insert any methods used to reduce number of errors and warnings>
+- For sendEmail.js, there were 0 errors and 8 warnings.
 
 **Performance**
 - Results can be seen through the official [Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Falyshajohnson.github.io%2Fcv_site%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) report.
 
 As part of the performance test through Lighthouse, some changes were made:
 - Accessibility (aria-label) tags were implemented on all buttons, links and images to improve the score from 92 to 96.
-- The cache policy was amended to increase the length of number of seconds the browser should cache the resource.
 - The image file sizes needed to be compressed so reduce the impact on performance. This was successfully done using [tinyPNG](https://tinypng.com/).
 
 ### 4.3 User Testing
 This app has been tested by a small group of 10 users in which some feedback was captured in the design and some errors in functionality and spelling were corrected.
 
 UI improvements made:
-- <list any improvements to UI that were made here>
-
-Errors / bug fixes:
-- <list errors/bugs that were found, what the problem was and how they were fixed>
-
-### 4.4 Unfixed Bugs
-
-- <list unfixed bugs here>
+- Having the GitHub link available on mobile devices
+- "(in training)" text in header on spearate lines
 
 ## 5. Deployment
 
@@ -180,4 +169,4 @@ All media used on this site was taken and owned by the developer.
 
 ### 6.3 Special Thanks
 
-Special thanks goes to 
+Special thanks goes to those to help test the site and fedback issues.
