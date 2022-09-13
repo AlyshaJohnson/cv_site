@@ -111,10 +111,10 @@ Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any
 <insert any methods used to reduce number of errors and warnings>
 
 **Performance**
-- Results can be seen through the official [Lighthouse](<insert link to report>) report.
+- Results can be seen through the official [Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Falyshajohnson.github.io%2Fcv_site%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) report.
 
 As part of the performance test through Lighthouse, some changes were made:
-- Accessibility (aria-label) tags were implemented on all buttons to improve the score from 82 to 100.
+- Accessibility (aria-label) tags were implemented on all buttons and images to improve the score from 92 to 100.
 - The cache policy was amended to increase the length of number of seconds the browser should cache the resource.
 - The image file sizes needed to be compressed so reduce the impact on performance. This was successfully done using [tinyPNG](https://tinypng.com/).
 
