@@ -103,7 +103,6 @@ header {
 
 .logo {
 	background: url("../images/me.jpg");
-	background-position: centre;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 360px;
@@ -127,7 +126,7 @@ header {
 	color: #fafafa;
 }
 
-.title > i {
+.title>i {
 	font-size: 15px;
 	display: block;
 }
@@ -340,7 +339,7 @@ footer ul {
 
 .language-p {
 	margin-left: 20px;
-    width: 100%;
+	width: 100%;
 }
 
 .progress {
@@ -413,7 +412,7 @@ footer ul {
 	text-decoration: none;
 }
 
-.carousel-caption > div {
+.carousel-caption>div {
 	text-align: left;
 	margin: 20px;
 }
@@ -456,8 +455,8 @@ footer ul {
 }
 
 .currently-item .value {
-    position: relative;
-    width: 75%;
+	position: relative;
+	width: 75%;
 }
 
 .interests-icon {
@@ -513,8 +512,13 @@ button[type="submit"] {
 }
 
 @keyframes rotate {
-	0%   {transform: rotate(0deg)}
-	100% {transform: rotate(360deg)}
+	0% {
+		transform: rotate(0deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
 }
 
 button i {
@@ -533,7 +537,7 @@ button i {
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 768px) {
-	.title > i {
+	.title>i {
 		display: inline;
 	}
 
@@ -549,7 +553,7 @@ button i {
 		display: none;
 		font-size: 1rem;
 		margin: 50px 60px;
-    	max-height: 250px;
+		max-height: 250px;
 	}
 
 	.carousel-caption:hover {
@@ -560,10 +564,10 @@ button i {
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
 	}
-	
+
 	.carousel-caption:hover div,
 	.carousel-caption:hover h5,
-	.carousel-caption:hover a  {
+	.carousel-caption:hover a {
 		display: block;
 		transition: all 0.35s ease-in-out;
 		-moz-transition: all 0.35s ease-in-out;
