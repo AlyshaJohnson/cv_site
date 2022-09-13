@@ -369,8 +369,9 @@ footer ul {
 }
 
 .carousel-item a {
-	margin: 50px 60px;
+	margin: 0px 20px;
 	max-height: 250px;
+	font-size: 0.8em;
 }
 
 .carousel-control-prev i,
@@ -393,6 +394,7 @@ footer ul {
 
 .carousel-caption {
 	background-color: rgba(32, 114, 107, 0.5);
+	padding-bottom: 0px
 }
 
 .div-scroll {
@@ -418,28 +420,14 @@ footer ul {
 
 .carousel-caption div,
 .carousel-caption h5,
-.carousel-caption a {
+.carousel-caption h3 {
 	display: none;
 	font-weight: 200;
 }
 
-.carousel-caption:hover {
-	height: 100%;
-	background-color: rgba(32, 114, 107, 0.98);
-	transition: all 0.35s ease-in-out;
-	-moz-transition: all 0.35s ease-in-out;
-	-webkit-transition: all 0.35s ease-in-out;
-	-o-transition: all 0.35s ease-in-out;
-}
-
-.carousel-caption:hover div,
-.carousel-caption:hover h5,
-.carousel-caption:hover a  {
+.carousel-caption a {
 	display: block;
-	transition: all 0.35s ease-in-out;
-	-moz-transition: all 0.35s ease-in-out;
-	-webkit-transition: all 0.35s ease-in-out;
-	-o-transition: all 0.35s ease-in-out;
+	font-weight: 200;
 }
 
 /* --------------------------------- Interests */
@@ -547,6 +535,40 @@ button i {
 @media(min-width: 768px) {
 	.title > i {
 		display: inline;
+	}
+
+	.carousel-caption {
+		padding-bottom: 20px;
+	}
+
+	.carousel-caption h3 {
+		display: block;
+	}
+
+	.carousel-caption a {
+		display: none;
+		font-size: 1rem;
+		margin: 50px 60px;
+    	max-height: 250px;
+	}
+
+	.carousel-caption:hover {
+		height: 100%;
+		background-color: rgba(32, 114, 107, 0.98);
+		transition: all 0.35s ease-in-out;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+	}
+	
+	.carousel-caption:hover div,
+	.carousel-caption:hover h5,
+	.carousel-caption:hover a  {
+		display: block;
+		transition: all 0.35s ease-in-out;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
 	}
 }
 
