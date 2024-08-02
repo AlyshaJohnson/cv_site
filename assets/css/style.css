@@ -277,7 +277,7 @@ footer ul {
 	width: 60%;
 }
 
-/* --------------------------------- About Me */
+/* --------------------------------- Welcome */
 
 .about-me-icon {
 	font-size: 26px;
@@ -287,6 +287,20 @@ footer ul {
 .about-me-heading {
 	margin-bottom: 15px;
 }
+
+.video-div {
+	margin-top: 5px;
+	padding-bottom: 56.25%;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 /* --------------------------------- Work History */
 
